@@ -1,0 +1,43 @@
+@media screen 
+  and (max-width: 750px) {
+
+    #SideBar{
+
+        visibility: hidden;
+        display: none;
+        position: absolute;
+
+    }
+
+    .App{
+
+      flex-direction: column ;
+      height: auto;
+      overflow: hidden;
+
+   }
+
+   #Menu{
+
+    margin: 2em 0 2em 0;
+
+   }
+
+   #Bill{
+
+    height: max-content;
+    padding: 1em;
+    overflow-y: visible;
+    margin: 2em 0 2em 0;
+
+   }
+
+   .Itemimg{
+    
+    visibility: hidden;
+    display: none;
+    position: absolute;
+
+   }
+
+}
